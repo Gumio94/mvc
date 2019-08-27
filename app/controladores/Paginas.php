@@ -4,6 +4,8 @@ class Paginas extends Controler{
         
     }
     public function index(){
-        $this->vista('paginas/inicio');
+        
+        $datos = [];
+        $this->vista('paginas/inicio',$datos);
     }
 }
