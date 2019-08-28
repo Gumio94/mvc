@@ -1,6 +1,6 @@
 <?php
 /*Carga el modelo y las vistas*/
-class Controler{
+class Controlador{
     
     //cargar modelo 
     public function modelo($modelo){

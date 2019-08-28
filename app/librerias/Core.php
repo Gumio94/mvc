@@ -6,7 +6,7 @@ Esta clase sirve para redirigir a que parte de la aplicacion dirigir
  *      localhost/mvc/usuario/modificar/25
 */
 class Core{
-    protected $controlador_actual = "paginas";
+    protected $controlador_actual = "inicial";
     protected $metodo_actual="index";
     protected $parametros=[];
     
