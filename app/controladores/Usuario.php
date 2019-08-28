@@ -1,7 +1,7 @@
 <?php
-class C_Usuario extends Controlador{
+class Usuario extends Controlador{
     public function __construct() {
-        $this->usuarioModelo = $this->modelo('Usuario');
+        $this->usuarioModelo = $this->modelo('UsuarioMod');
     }
     public function index(){
         
