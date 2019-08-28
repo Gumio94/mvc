@@ -5,7 +5,7 @@ class Controlador{
     //cargar modelo 
     public function modelo($modelo){
         //trae el archivo con el modelo
-        require_once '../app/modelo/'. $modelo . '.php';
+        require_once '../app/modelos/'. $modelo . '.php';
         
         //retorna un objeto del modelo
         return new $modelo();
