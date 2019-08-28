@@ -21,7 +21,7 @@ class DB{
         //crea un objeto PDO
         try {
             $this->dbh = new PDO($dsn, $this->user, $this->pass, $opciones);
-            $this->dbh->exec('set name utf8');
+            $this->dbh->exec('SET NAMES utf8');
         } catch (PDOException $ex) {
             $this->error = $ex->getMessage();
             echo $this->error;

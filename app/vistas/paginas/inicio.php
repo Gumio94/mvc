@@ -1,9 +1,7 @@
 <?php require RUTA_APP.'/vistas/inc/header.php';?>
 
 <?php
-//foreach ($datos['usuarios'] as $usuario){
-//    echo $usuario->usuario;
-//}
+echo $datos['titulo'];
 ?>
-
+<a href="c_usuario/">Mostrar usuario</a>
 <?php require RUTA_APP.'/vistas/inc/footer.php';?>
