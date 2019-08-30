@@ -15,6 +15,7 @@ class Controlador{
     public function vista($vista, $datos = []){
         //chequea si existe vista 
         if (file_exists('../app/vistas/'. $vista . '.php')){
+            //trae la vista si existe
             require_once '../app/vistas/'. $vista . '.php';
         } else {
             //si el archivo de la vista no existe

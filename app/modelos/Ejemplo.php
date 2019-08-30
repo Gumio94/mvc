@@ -1,4 +1,3 @@
 <?php
-class Ejemplo {
-    //put your code here
-}
+//Aca irian los modelos
+
