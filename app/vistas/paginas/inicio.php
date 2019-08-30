@@ -6,7 +6,6 @@ require RUTA_APP.'/vistas/inc/header.php';?>
 //recibe los datos del controlador y los pone donde corresponde
 echo $datos['titulo'];
 ?>
-<a href="usuario/">Mostrar usuario</a>
 <?php 
 //trae el archivo de pie de pagina
 require RUTA_APP.'/vistas/inc/footer.php';?>
