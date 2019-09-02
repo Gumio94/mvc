@@ -10,7 +10,7 @@ class Inicial extends Controlador{
     public function index(){
         //crea un arreglo y pone como dato lo que se va a mostrar en la vista 
         $datos = [
-            'titulo' => 'Bienvenido a MVC'
+            'titulo' => 'NotiFalso'
         ];
         //inicia la vista 
         $this->vista('paginas/inicio',$datos);
