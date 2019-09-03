@@ -5,6 +5,7 @@
 
 //trae el archivo que hay que configurar
 require_once 'config/configurar.php';
+require_once 'helper/funciones.php';
 
 //trae las clases principales
 require_once 'librerias/DB.php';
