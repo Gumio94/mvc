@@ -12,7 +12,7 @@
     </form>
 </nav>
 
-<div class="container-fluid">
+<div class="container pt-3">
     <div class="row justify-content-between">
         <main class="col-md-7 col-lg-8 p-3 bg-primary">
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, in, sit, necessitatibus, voluptas officiis fugit iste autem expedita reprehenderit eligendi quos dicta nisi enim itaque voluptate quasi ducimus maiores fuga.</div>
@@ -26,8 +26,12 @@
             <div>A, similique, alias, debitis, eum saepe ad doloribus totam optio nostrum non quibusdam assumenda provident repudiandae eligendi modi voluptas explicabo amet! Sunt, sed doloribus nihil repellendus dicta quo eligendi a!</div>
             <div>Obcaecati, delectus, suscipit aliquam voluptatibus tenetur praesentium nisi ratione quo dolore sunt quasi doloremque optio reiciendis illo nesciunt possimus quam corporis dicta itaque vero? Ratione aut veniam atque explicabo sequi.</div>
         </main>
-        <div class="col-md-4 col-lg-3 p-3 bg-secondary d-none d-md-block">
-            <?php require RUTA_APP.'/vistas/inc/login.php';?>
+        <div class="col-md-4 col-lg-3  d-none d-md-block">
+            <div class="row">
+                <div class="col bg-secondary p-3">
+                    <?php require RUTA_APP.'/vistas/inc/login.php';?>
+                </div>
+            </div>
         </div>
     </div>
 </div>
